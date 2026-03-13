@@ -1,4 +1,37 @@
+*{
+    margin: 0;
+}
 :root {
     color: #000;
     background: #fff;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* footerで隠れる問題の調整 */
+.container {
+    margin-bottom: 5dvh;
+}
+
+/* Header */
+.Header {
+    display: grid;
+    justify-content: space-between;
+    grid-auto-flow: column;
+    margin: 0;
+    padding: 5px;
+    height: 2em;
+    background: #722a08;
+    color: #fff;
+    text-align: center;
+}
+
+/* Footer */
+.Footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-size: 0.8rem;
+    width: 100dvw;
+    background: #851414;
 }

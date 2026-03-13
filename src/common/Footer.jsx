@@ -1,5 +1,7 @@
 export default function Footer() {
   return (
-    <div>Footer</div>
+    <div className="Footer">
+      This is Portrait. All is fiction. 2026
+    </div>
   )
 }
