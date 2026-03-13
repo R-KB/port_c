@@ -11,6 +11,8 @@
 /* footerで隠れる問題の調整 */
 .container {
     margin-bottom: 5dvh;
+    width: 60dvw;
+    padding-left: 20dvw;
 }
 
 /* Header */
