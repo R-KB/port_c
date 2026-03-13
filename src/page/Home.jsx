@@ -1,8 +1,10 @@
 import { Container } from "react-bootstrap";
+import HomeTopCarousel from "../components/HomeTopCarousel";
 
 export default function Home() {
   return (
     <Container>
+        <HomeTopCarousel />
         <h2>Home</h2>
         <hr />
         <br /><br /><br /><br /><br />
